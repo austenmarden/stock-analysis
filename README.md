@@ -2,27 +2,33 @@
 
 ## Overview of Project
 ---
-Steve has just graduated with his finance degree and his parents have decided to be his first clients. Steve's parents are new to investments plans and have not done much research on stocks. They are passionate about green energy and have decided to invest all of their money into DAQO, a company who makes parts needed for solar panels. Steve has agreed to look into DAQO stocks but is interested in diversifying his parent's portfolio. He plans to analyze a handfull of green energy stocks in addition to DAQO's stock. Steve has collected this data and has enlisted my assistance to help him run the numbers.
+After Steve graduated with his finance degree, his parents wanted to be his first clients. Being interested in green energy, Steve's parents were highly interested in companies that were alligned with their interests; specifcally DAQO a company who makes parts needed to manufacture solar panels. Steve enlisted my help to build a tool that would review stock data over the last few years and help him make the best decision for his parents investement. After presenting Steve with our initial tool, he is very satisfied with what he has so far, but given the results of the data Steve would like to expand his dataset to include the entire stock market over the past few years. 
 
 ## Objective
 ---
-My goal when analyzing this data was to create an easy to digest output format that Steve could review quickly to make solid investing decisions as efficiently as possible. As Steve has just graduated with his finance degree, his goals are to try to bring in as many new clients as possible and an easy to use stock analysis tool will really help Steve build his client base.
+While my code worked well on Steve's initial list of stocks, it may not work well for whole stock market research. Understanding Steve's new obective I decided to refactor my original code to be used on a much larger data set with the goal of reducing the takes to return the results. 
 
 ## Results
 ---
-After reviewing the dataset i was able to create an excel tool that will meet steve's needs while working with his parents as well as with future clients. After writing a program to run the analysis on the 12 stocks that Steve had provided me originally, I knew there was a more efficient way to give steve a tool that could run analysis with other clients who may be interested in a more diverse range of investment options.
+In the end, i was able to create a new tool for Steve's needs. By optimizing the code I was able reduce run times by an estimated 60% all while returning the same results. I've included screenshots to show our results in a redued timeframe as well as a snip of the code which is doing the bulk of the work, To view the workbook Click Here. with this refactored code, Steve will be able to analyze a much larger dataset in a reasonable time to help him make investement decisions for his clients.
 
-## Report Output Examples
+### Report Output Examples
 ---
- ### Example of the 12 stocks Steve provided us for 2017.
- ![2017](./resources/vba_challenge_2017.png)
+ Efficiency example of the 12 stocks Steve provided us for 2017.
+ ![2017_comp](./resources/comparison_2017.png)
+ Efficiency example of the 12 stocks Steve provided us for 2018.
+ ![2018](./resources/comparison_2018.png)
 
- ### Example of the 12 stocks Steve provided us for 2018.
- ![2018](./resources/vba_challenge_2018.png)
-
-## Refactoring
+### Refactored Code Example
 ---
+Sample of refactored code outlining the enhanced nested loop to increase efficiency.
+![ref_code](./resources/refactored_code.png)
 
+## Refactoring Q&A
+---
+1. What are the advantages or disadvantages of refactoring code?
+    - Advantages: Refactoring allows the creator an opportunity to reflect on the code written in an effort to organize the structure in an easier to read format as well as enhance their code to be more efficient or mor accurate. 
+    - Disadvantages:  Depending on the project constraints, refactoring takes additional time that not all projects will be able to afford. The benefits of refactoring may not be great enough to push deadlines, especially if only working with a small data set. 
+2. How do these pros and cons apply to refactoring the original VBA script?
+    -   Given the nature of Steve's request and expected intent for this tool, I beleive the advantages heavily outweigh and dissatvantages in refactoring this code. Because Steve wants to expand his dataset to include the entire stock market, the original code could take a significantly longer time to run. By refactoring this code we have created a tool that Steve will be able to use not only with his parents investment but also on additional new clients.
 
-There is a detailed statement on the advantages and disadvantages of refactoring code in general 3 pt
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script 3 pt
