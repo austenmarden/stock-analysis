@@ -10,19 +10,19 @@ While my code worked well on Steve's initial list of stocks, it may not work wel
 
 ## Results
 ---
-In the end, i was able to create a new tool for Steve's needs. By optimizing the code I was able reduce run times by an estimated 60% all while returning the same results. I've included screenshots to show our results in a redued timeframe as well as a snip of the code which is doing the bulk of the work, To view the workbook Click Here. with this refactored code, Steve will be able to analyze a much larger dataset in a reasonable time to help him make investement decisions for his clients.
+In the end, i was able to create a new tool for Steve's needs. By optimizing the code I was able reduce run times by an estimated 60% all while returning the same results. I've included screenshots to show our results in a redued timeframe as well as a snip of the code which is doing the bulk of the work, To view the workbook [Click Here](./vba_challenge.xlsm). with this refactored code, Steve will be able to analyze a much larger dataset in a reasonable time to help him make investement decisions for his clients.
 
 ### Report Output Examples
 ---
  Efficiency example of the 12 stocks Steve provided us for 2017.
- ![2017_comp](./resources/comparison_2017.png)
+ ![2017_comp](./resources/comparison_2017.PNG)
  Efficiency example of the 12 stocks Steve provided us for 2018.
- ![2018](./resources/comparison_2018.png)
+ ![2018](./resources/comparison_2018.PNG)
 
 ### Refactored Code Example
 ---
 Sample of refactored code outlining the enhanced nested loop to increase efficiency.
-![ref_code](./resources/refactored_code.png)
+![ref_code](./resources/refactored_code.PNG)
 
 ## Refactoring Q&A
 ---
